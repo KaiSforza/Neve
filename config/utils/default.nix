@@ -23,6 +23,7 @@
     ./sidebar.nix
     ./tmux-navigator.nix
     ./todo-comments.nix
+    ./toggleterm.nix
     ./ultimate-autopair.nix
     ./undotree.nix
     ./wakatime.nix
@@ -44,7 +45,7 @@
     nvim-autopairs.enable = lib.mkDefault true;
     colorizer.enable = lib.mkDefault true;
     nvim-surround.enable = lib.mkDefault true;
-    nvterm.enable = lib.mkDefault true;
+    nvterm.enable = lib.mkDefault false;
     oil.enable = lib.mkDefault true;
     persistence.enable = lib.mkDefault true;
     plenary.enable = lib.mkDefault true;
@@ -52,6 +53,7 @@
     sidebar.enable = lib.mkDefault false;
     tmux-navigator.enable = lib.mkDefault true;
     todo-comments.enable = lib.mkDefault true;
+    toggleterm.enable = lib.mkDefault true;
     ultimate-autopair.enable = lib.mkDefault true;
     undotree.enable = lib.mkDefault true;
     wakatime.enable = lib.mkDefault true;

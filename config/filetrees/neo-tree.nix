@@ -29,7 +29,7 @@
       };
     };
 
-    # keymaps = [
+    keymaps = [
     #   {
     #     mode = "n";
     #     key = "<leader>e";
@@ -39,15 +39,15 @@
     #       desc = "Explorer NeoTree (root dir)";
     #     };
     #   }
-    #   {
-    #     mode = "n";
-    #     key = "<leader>E";
-    #     action = "<cmd>Neotree toggle<CR>";
-    #     options = {
-    #       silent = true;
-    #       desc = "Explorer NeoTree (cwd)";
-    #     };
-    #   }
+      {
+        mode = "n";
+        key = "<leader>E";
+        action = "<cmd>Neotree toggle<CR>";
+        options = {
+          silent = true;
+          desc = "Explorer NeoTree (cwd)";
+        };
+      }
     #   {
     #     mode = "n";
     #     key = "<leader>be";
@@ -66,6 +66,6 @@
     #       desc = "Git explorer";
     #     };
     #   }
-    # ];
+    ];
   };
 }
