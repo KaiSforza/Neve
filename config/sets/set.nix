@@ -84,7 +84,7 @@
       scrolloff = 8;
 
       # Place a column line
-      colorcolumn = "80";
+      colorcolumn = "88";
 
       # Reduce which-key timeout 
       timeoutlen = 200;
@@ -109,7 +109,7 @@
       listchars = "tab:|->,lead: ,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
       # More space in the neovim command line for displaying messages
-      cmdheight = 2;
+      cmdheight = 1;
 
       # We don't need to see things like INSERT anymore
       showmode = false;
